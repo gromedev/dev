@@ -1,0 +1,15 @@
+{
+  "bindings": [
+    {
+      "name": "Timer",
+      "type": "timerTrigger",
+      "direction": "in",
+      "schedule": "0 0 */6 * * *"
+    },
+    {
+      "name": "Starter",
+      "type": "orchestrationClient",
+      "direction": "in"
+    }
+  ]
+}
